@@ -14,7 +14,7 @@ library(pacman)
 Use `p_load` from `pacman` to load multiple packages efficiently (this list is not exhaustive; The `pacman::p_load()` function in R can handle a large number of packages, essentially as many as your system's memory and R environment can support. There is no strict upper limit imposed by pacman itself).
 
 ```r
-p_load(car, dplyr, matrixStats, questionr, srvyr, survey, stringr, tidycensus, tidyverse, tidyr)
+p_load(car,dplyr, ggplot2, mapboxapi, matrixStats, plotly, questionr,scales, sf, srvyr, stringr,survey, tidycensus,tidyverse,tidyr, tigris, zoo)
 ```
 
 ## Updating R Version Within RStudio
@@ -56,12 +56,21 @@ Another method for keeping track of installed packages is by maintaining a text 
 ```
 car
 dplyr
+ggplot2
+mapboxapi
 matrixStats
+plotly
 questionr
+scales
+sf
+srvyr
 stringr
+survey
 tidycensus
 tidyverse
 tidyr
+tigris
+zoo
 ```
 
 ### Reinstall Packages from `packages.txt`
